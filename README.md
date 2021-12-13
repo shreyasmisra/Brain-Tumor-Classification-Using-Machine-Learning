@@ -7,3 +7,11 @@ Generated data and weigths can be found here -- https://cmu.box.com/s/6diszv2wk7
 3 different feature engineering methods are compared, namely, Gray Level Co-Occurance Matrix (GLCM), Histogram Oriented Features (HOG) and Principal Component Analysis (PCA). We test these features on Random Forest Classifier, SVM and a Deep Neural Network. Highest test accuracy is achieved with HOG + PCA features trained on SVM equal to around 96%. We also compare the number of False Positives and False Negatives produced. HOG + PCA produced the lowest number of False Positives and False Negatives with an average Recall score = 0.96.
 
 We benchmark these results using ResNet50 and DenseNet169 architectures. A test accuracy of 99.2% is achieved using DenseNet169. However, our generated features perform better than ResNet50, prodcuing a max test accuracy equal to 96% wheras ResNet50 produces a max test accuracy equal to only 93%.
+
+
+
+Collaborators -- 
+1) Shreyas Misra (shreyasm@andrew.cmu.edu)
+2) Akshay Antony (akshayan@andrew.cmu.edu)
+3) Mathew R Thomson (mrohitth@andrew.cmu.edu)
+4) Vishnu Mani Hema (vmanihem@andrew.cmu.edu)
